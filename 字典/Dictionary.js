@@ -1,12 +1,3 @@
-/**
- * 数组  集合(无需且不重复)
- *
- * 字典:
- *      一一对应
- *      key不可以重复,value可以重复
- *      key是无序的
- */
-
 //封装字典类
 function Dictionary() {
     //字典属性
@@ -53,3 +44,6 @@ function Dictionary() {
         this.items = {}
     }
 }
+
+
+module.exports = Dictionary
